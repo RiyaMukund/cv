@@ -10,16 +10,8 @@ p
     font-size: 1.2rem;
 }
 
-h3
-{
-    color: #E15D44;
-    font-family: 'Lateef', cursive;
-    font-size: 1.6rem;
-    font-weight: bold;
-    
-}
 
-h4
+h1
 {
     font-family: 'Merriweather', serif;      /* font-family: 'Tangerine', cursive; */
     font-size: 4rem;
@@ -103,4 +95,13 @@ h4
 .card-title
 {
     color: #9896A4;
+}
+
+
+@media only screen and (max-width : 700px)
+{
+    h1
+    {
+        font-size: 3rem;
+    }
 }
